@@ -22,7 +22,27 @@ Kit de herramientas base para crear asistentes, dashboards u otros componentes i
 
 Usando `bun` (recomendado por velocidad):
 
+## 2. Servidor de desarrollo
+
 ```bash
 bun install
-
 npm install
+
+## 3. Build de producción
+bun run build
+# o
+npm run build
+
+💡 Características
+
+✅ Arquitectura modular con rutas, configuración Vite + TypeScript
+
+💅 Estilizado responsivo con Tailwind CSS
+
+🧩 Componentes escalables usando shadcn/ui
+
+🛡️ Configuración lista para producción con ESLint y PostCSS
+
+🧪 Preparado para integrar Supabase o Firebase
+
+🧠 Soporte para manejo de estado global con Zustand o Context
